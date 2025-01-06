@@ -1,6 +1,6 @@
 # The discord lottery bot using dotnet  
 Just for class and fun. Maybe you can make some issues or PR, that can make this better.
-Also I didn't send a request regarding copyright. If there are any issues, please feel free to raise an issue or DM me.
+I didn't send a request regarding copyright. If there are any issues, please feel free to raise an issue or DM me.
 
 ## Image source
 
