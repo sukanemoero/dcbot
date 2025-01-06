@@ -22,8 +22,8 @@ git clone https://github.com/sukanemoero/dcbot.git LotteryDiscordBot
 cd LotteryDiscordBot
 rm -rf .git .gitignore
 mkdir -p config
-echo "{host: \"\", user: \"\", password: \"\", database: \"\"}" > ./config/database_config.json
-echo "{token:\"\" }" > ./config/bot_config.json
+echo "{\"host\": \"\", \"user\": \"\", \"password\": \"\", \"database\": \"\"}" > ./config/database_config.json
+echo "{\"token\":\"\" }" > ./config/bot_config.json
 dotnet build 
 ```
 
