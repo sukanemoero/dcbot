@@ -1,0 +1,6 @@
+/.idea
+/config/bot_config.json
+/config/database_config.json
+/bin
+/obj
+/Folder.DotSettings.user
