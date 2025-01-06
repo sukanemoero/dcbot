@@ -141,18 +141,6 @@ CREATE TABLE `log_user_value_changes`
 )
 ```
 
-```mariadb
-CREATE TABLE `lottery_message_characters`
-(
-    `id`          int(11) NOT NULL,
-    `characterID` int(11) NOT NULL,
-    KEY `FK_message_id` (`id`),
-    KEY `FK_message_character_id` (`characterID`),
-    CONSTRAINT `FK_message_character_id` FOREIGN KEY (`characterID`) REFERENCES `characters` (`id`),
-    CONSTRAINT `FK_message_id` FOREIGN KEY (`id`) REFERENCES `lottery_messages` (`id`)
-)
-```
-
 
 
 
